@@ -28,8 +28,6 @@ dataSet[dataSetVersion].options = [
     name: "Remove Duplicates",
     key: "dupe",
     tooltip: "Check this to remove characters that have multiple forms/versions."
-  },
-  {
   }
 ];
 
