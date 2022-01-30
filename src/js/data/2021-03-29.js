@@ -9,10 +9,10 @@ dataSet[dataSetVersion].options = [
     checked: false,
     sub: [
       { name: "Kerfuffle For A Neat Prize", key: "kfanp" },
-      { name: "Duck Clash", tooltip: ".", key: "duck1" },
-      { name: "Duck Clash DX", tooltip: ".", key: "duck2" },
-      { name: "BFAMOOS", tooltip: ".", key: "bf" },
-      { name: "Battle For Oat Isle", tooltip: ".", key: "bfoi" },
+      { name: "Duck Clash", tooltip: "First season of Duck Clash", key: "duck1" },
+      { name: "Duck Clash DX", tooltip: "Second season of Duck Clash", key: "duck2" },
+      { name: "BFAMOOS", tooltip: "Battle For A More Original Object Show", key: "bf" },
+      { name: "Battle For Oat Isle", tooltip: "Old show", key: "bfoi" },
       { name: "The Mildud Super Show", tooltip: "TMSS", key: "TMSS" },
     ]
   },
