@@ -30,39 +30,41 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to remove characters that have multiple forms/versions."
   },
   {
+  }
 ];
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "7-Segment Display",
-    img: "src/assets/16-Bit Duck.png",
+    name: "Hakurei Reimu",
+    img: "c5DqpgX.png",
     opts: {
       series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["obj"]
+      stage: ["st4"]
     }
   },
   {
-    name: "8-Bit Duck",
-    img: "src/assets/16-Bit Duck.png",
+    name: "Kirisame Marisa",
+    img: "tJnkSzK.png",
     opts: {
-      series: [ "duck1", "duck2" ],
-      stage: ["dk"]
+      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
+      stage: ["st4", "ex"]
     }
   },
   {
-    name: "16-Bit Duck",
-    img: "src/assets/16-Bit Duck.png",
+    name: "Rumia",
+    img: "0YT7QlS.png",
     opts: {
-      series: ["duck1", "duck2"],
-      stage: ["dk"]
+      series: ["book", "EoSD", "StB", "HM"],
+      stage: ["st1"]
     }
   },
   {
-    name: "Doodle Duck",
-    img: "src/assets/16-Bit Duck.png",
+    name: "Daiyousei",
+    img: "NWlZud3.png",
     opts: {
-      series: ["duck1"],
-      stage: ["dk"],
+      series: ["book", "EoSD"],
+      stage: ["st2", "ex"],
+      nameless: true
     },
   },
   {
