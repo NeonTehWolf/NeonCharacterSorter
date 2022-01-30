@@ -19,26 +19,20 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Type",
     key: "stage",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
+    tooltip: "Check this to restrict to certain character types.",
     checked: false,
     sub: [ { name: "Book", key: "bk" }, { name: "Duck", key: "dk" }, { name: "Dew Planeter", key: "dew" }, { name: "Object", key: "obj" }
     ]
   },
   {
-    name: "Remove PC-98 Duplicates",
-    key: "pc98",
-    tooltip: "Check this to remove PC-98 characters with a Windows counterpart."
+    name: "Remove Duplicates",
+    key: "dup",
+    tooltip: "Check this to remove characters that have 2 forms."
   },
   {
-    name: "Remove Non-Girls",
-    key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
-  },
-  {
-    name: "Remove Nameless Characters",
-    key: "nameless",
-    tooltip: "Check this to remove all characters without canonical names.",
-    checked: false
+    name: "Remove Joke Characters",
+    key: "joke",
+    tooltip: "Check this to remove all joke characters."
   }
 ];
 
