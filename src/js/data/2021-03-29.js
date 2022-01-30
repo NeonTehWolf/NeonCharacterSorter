@@ -5,7 +5,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Series Entry",
     key: "series",
-    tooltip: "Check this to restrict to certain series.",
+    tooltip: "Check this to restrict to certain show.",
     checked: false,
     sub: [
       { name: "Kerfuffle For A Neat Prize", key: "kfanp" },
@@ -17,11 +17,11 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter by Stage Enemy Appearances",
+    name: "Filter by Type",
     key: "stage",
     tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
     checked: false,
-    sub: [ { name: "Stage 1", key: "st1" }, { name: "Stage 2", key: "st2" }, { name: "Stage 3", key: "st3" }, { name: "Stage 4", key: "st4" }, { name: "Stage 5/Penultimate", tooltip: "Stage 4 in 5-stage games, and Stage 8 in 9-stage games.", key: "st5" }, { name: "Stage 6/Final", key: "st6" }, { name: "Stage EX/Phantasm", key: "ex" }
+    sub: [ { name: "Book", key: "bk" }, { name: "Duck", key: "dk" }, { name: "Dew Planeter", key: "dew" }, { name: "Object", key: "obj" }
     ]
   },
   {
