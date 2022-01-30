@@ -30,24 +30,23 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to remove characters that have multiple forms/versions."
   },
   {
-  }
 ];
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
+    name: "7-Segment Display",
     img: "c5DqpgX.png",
     opts: {
       series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      stage: ["obj"]
     }
   },
   {
-    name: "Kirisame Marisa",
+    name: "8-Bit Duck",
     img: "tJnkSzK.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4", "ex"]
+      series: [ "duck1", "duck2" ],
+      stage: ["dk"]
     }
   },
   {
