@@ -21,7 +21,7 @@ dataSet[dataSetVersion].options = [
     key: "stage",
     tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
     checked: false,
-    sub: [ { name: "Booksona", key: "books" }, { name: "Object", key: "obj" }, { name: "Duck", key: "dk" }, { name: "Creature", key: "cr" }, { name: "Dew Planeters", tooltip: "Mildew's species.", key: "dew" }, { name: "Stage 6/Final", key: "st6" }
+    sub: [ { name: "Booksona", key: "books" }, { name: "Object", key: "obj" }, { name: "Duck", key: "dk" }, { name: "Creature", key: "cr" }, { name: "Dew Planeters", tooltip: "Mildew's species.", key: "dew" }
     ]
   },
   {
