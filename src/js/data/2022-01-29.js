@@ -35,7 +35,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "7-Segment Display",
-    img: "c5DqpgX.png",
+    img: "src/assets/16-Bit Duck.png",
     opts: {
       series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
       stage: ["obj"]
@@ -43,27 +43,26 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "8-Bit Duck",
-    img: "tJnkSzK.png",
+    img: "src/assets/16-Bit Duck.png",
     opts: {
       series: [ "duck1", "duck2" ],
       stage: ["dk"]
     }
   },
   {
-    name: "Rumia",
-    img: "0YT7QlS.png",
+    name: "16-Bit Duck",
+    img: "src/assets/16-Bit Duck.png",
     opts: {
-      series: ["book", "EoSD", "StB", "HM"],
-      stage: ["st1"]
+      series: ["duck1", "duck2"],
+      stage: ["dk"]
     }
   },
   {
-    name: "Daiyousei",
-    img: "NWlZud3.png",
+    name: "Doodle Duck",
+    img: "src/assets/16-Bit Duck.png",
     opts: {
-      series: ["book", "EoSD"],
-      stage: ["st2", "ex"],
-      nameless: true
+      series: ["duck1"],
+      stage: ["dk"],
     },
   },
   {
