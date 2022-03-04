@@ -14,6 +14,7 @@ dataSet[dataSetVersion].options = [
       { name: "BFAMOOS", tooltip: "Battle For A More Original Object Show", key: "bf" },
       { name: "Battle For Oat Isle", tooltip: "Old show", key: "bfoi" },
       { name: "The Mildud Super Show", tooltip: "TMSS", key: "TMSS" },
+      { name: "Other", tooltip: "Others", key: "other" },
     ]
   },
   {
@@ -38,44 +39,43 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
-    img: "c5DqpgX.png",
+    name: "7-Segment Display",
+    img: "932080489194467328/949386055348547644/7-Segment_Display.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      series: [ "other" ],
+      stage: ["obj"]
     }
   },
   {
-    name: "Kirisame Marisa",
-    img: "tJnkSzK.png",
+    name: "8-Bit Duck",
+    img: "932080489194467328/949386055826669568/8-Bit_Duck.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4", "ex"]
+      series: [ "duck1", "duck2" ],
+      stage: ["dk"]
     }
   },
   {
-    name: "Rumia",
-    img: "0YT7QlS.png",
+    name: "16-Bit Duck",
+    img: "932080489194467328/949386056309030952/16-Bit_Duck.png",
     opts: {
-      series: ["book", "EoSD", "StB", "HM"],
-      stage: ["st1"]
+      series: ["duck1", "duck2"],
+      stage: ["dk"]
     }
   },
   {
-    name: "Daiyousei",
-    img: "NWlZud3.png",
+    name: "Almond",
+    img: "932080489194467328/949386056556490812/Almond.png",
     opts: {
-      series: ["book", "EoSD"],
-      stage: ["st2", "ex"],
-      nameless: true
+      series: ["other"],
+      stage: ["bk"],
     },
   },
   {
-    name: "Cirno",
-    img: "qdveFSy.png",
+    name: "Amazok Jr",
+    img: "932080489194467328/949386056845893642/Amazok_Jr.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "PoFV", "StB", "soku", "GFW", "HM", "DDC", "ISC", "HSiFS" ],
-      stage: ["st2"]
+      series: [ "kfanp"],
+      stage: ["obj"]
     }
   },
   {
